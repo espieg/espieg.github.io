@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Plus+Jakarta+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <style>
+        html  {height: 100%}
+        body  {
+            background-image: linear-gradient( #f7af29, #f44682);
+            background-color: orange;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+                }
+        h1 {font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        text-align: center;
+        padding-top: 25px;
+        color: #CAF829;}    
+        
+        table, th, td {
+            padding-left: 15px;
+            padding-right: 15px;
+                font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        text-align: center;
+        color: #CAF829;
+        align-content: center;
+            object-fit: contain;
+            width:auto;
+            }
+
+        table.center {
+            margin-left: auto; 
+            margin-right: auto;
+            text-align: center;
+            }
+       
+        #city   {
+             position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    object-fit: contain;
+    width:100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>NEW EON</h1>
+    <div id="nav">
+        <table class="center">
+            <tr>
+                <th><img src="Sparkle1.png" width="150p"x>
+                </th>
+                <th><img src="Sparkle2.png" width="150px">
+                </th>
+                <th><img src="Sparkle3.png" width="150px">
+                </th>
+                <th><img src="Sparkle4.png" width="150px">
+                </th>
+            </tr>
+            <tr>
+                <td>Plot</td>
+                <td>Characters</td>
+                <td>Sketches</td>
+                <td>Pages</td>
+            </tr>
+        </table>
+    </div>
+    <div id="city">
+        <img src="Websiteconceptcity.png" 
+                width="100%"
+                alt="the city">
+    </div>
+    
+   
+</body>
+</html>
