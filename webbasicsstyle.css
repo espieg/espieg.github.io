@@ -1,0 +1,54 @@
+<style>
+        html  {height: 100%}
+        body  {
+            background-image: linear-gradient( #f7af29, #f44682);
+            background-color: orange;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+                }
+        h1 {font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        text-align: center;
+        padding-top: 25px;
+        color: #CAF829;}    
+        
+        table, th, td {
+            padding-bottom: 15px;
+            padding-top: 15px;
+                font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        text-align: center;
+        color: #CAF829;
+        align-content: center;
+            object-fit: contain;
+            width:auto;
+
+            }
+
+        table.center {
+            margin-left: auto; 
+            margin-right: auto;
+            text-align: center;
+            padding-bottom: 200px;
+            }
+       
+        #city   {
+             position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    object-fit: contain;
+    width:100%;
+        }
+p   {padding-left: 25%;
+    padding-right: 25%;
+    color: #CAF829;
+    font-size: 20px;}
+    </style>
