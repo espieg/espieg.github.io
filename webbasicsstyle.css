@@ -1,57 +1,72 @@
 <style>
-        html  {height: 100%}
-        body  {
+    html  {height: 100%}
+    body  {
             background-image: url("Websiteconceptcity.png"), linear-gradient( #f7af29, #f44682);
             background-color: orange;
             background-repeat: no-repeat;
             background-attachment: fixed, fixed;
             background-position: bottom, top;
             background-size: contain;
-            margin: 0px;
-                }
-        h1 {font-family: "Hubballi", sans-serif;
+            margin: 0px;}
+
+    h1 {font-family: "Hubballi", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 100px;
         text-align: center;
         padding-top: 25px;
         color: #CAF829;}    
-        
-        table, th, td {
-            padding-bottom: 15px;
-            padding-top: 15px;
-                font-family: "Hubballi", sans-serif;
+
+    .contents {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 100px;
+        font-family: "Hubballi", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 25px;
-        text-align: center;
-        color: #CAF829;
-        align-content: center;
-            object-fit: contain;
-            width:auto;
+        padding-bottom: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;}
 
-            }
-
-        table.center {
-            margin-left: auto; 
-            margin-right: auto;
-            text-align: center;
-            padding-bottom: 200px;
-            }
-       
+    div.plot {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 50px;
+        font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        text-align: right}
         
-p   {padding-left: 25%;
-    padding-right: 25%;
-    color: #CAF829;
-    font-size: 20px;}
+    table, th, td {
+        font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        text-align: left;
+        word-wrap: normal;
+        color: #2b29f8;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid;
+        background-image: linear-gradient( #f7af29, #f44682);}
 
-ul  {padding-left: 25%;
-    padding-right: 25%;
-    color: #CAF829;
-    font-size: 20px;}
+        
+    p   {color: #CAF829;
+        font-size: 20px;}
 
-ol {padding-left: 25%;
-    padding-right: 25%;
-    color: #CAF829;
-    font-size: 20px;}
-    </style>
+
+    ul  {color: #CAF829;
+        font-size: 20px;
+        list-style-image: url('Sparkle1mini.png');
+        background-size: 20px;}
+
+    ol {color: #CAF829;
+        font-size: 20px;
+        text-align: left;}
+</style>
